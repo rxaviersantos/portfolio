@@ -5,6 +5,8 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 .hamburguer{
@@ -26,6 +28,7 @@
     height: .1rem;
     background-color: #fff;
     box-shadow: 0.2rem 0.2rem 2px #000;
+    border: 1px solid;
 }
 
 header{
@@ -120,3 +123,11 @@ header{
     }
 }
 
+.sidebar{
+    width: 20rem;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
