@@ -9,6 +9,12 @@
     text-decoration: none;
 }
 
+:root{
+    --font-primary: "Baloo da 2", serif;
+    --font-secundary: "Josefin Slab", serif;
+    --font-action: "Muli", serif;
+}
+
 .hamburguer{
     /* background-color: #FFA17F; */
     width: 2rem;
@@ -74,7 +80,7 @@ header{
 .banner h1{
     color: #ffffff;
     font-size: 3rem;
-    font-family: "Baloo da 2", serif;
+    font-family: var(--font-primary) ;
     font-weight: 200;
     text-shadow: .3rem .4rem 2px rgba(0, 0, 0, 4);
     line-height: 3.5rem;
@@ -84,7 +90,7 @@ header{
 }   
 
 .banner p{
-    font-family: "Josefin Slab", serif;
+    font-family: var(--font-secundary);
     color: #fff;
     font-size: 2rem;
     text-shadow: .2rem .2rem rgba(0, 0, 0, 4);
@@ -94,7 +100,7 @@ header{
 }
 
 .banner button{
-    font-family: "Muli", serif;
+    font-family: var(--font-action);
     color: #fff;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -130,4 +136,22 @@ header{
     position: fixed;
     top: 0;
     right: 0;
+}
+
+.menu {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu-item{
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.menu-link{
+    font-family:var(--font-action) ;
+    font-size: 2rem;
+    color: #555;
 }
