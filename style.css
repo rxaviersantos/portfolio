@@ -154,4 +154,25 @@ header{
     font-family:var(--font-action) ;
     font-size: 2rem;
     color: #555;
+    transition: color 1s;
+}
+
+.menu-link:hover{
+    color: #FFA17F;
+}
+
+.social-media{
+    background-color: rgba(0, 0, 0, 4);
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-media i{
+    background-color: rgba(255, 0, 0, 5);
+    color: #555;
+    height: 2.5rem;
+    width: 2.5rem;
 }
