@@ -175,4 +175,9 @@ header{
     color: #555;
     height: 2.5rem;
     width: 2.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
