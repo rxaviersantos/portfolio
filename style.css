@@ -135,7 +135,13 @@ header{
     background-color: #fff;
     position: fixed;
     top: 0;
+    right: -20rem;
+    transition: all 1s;
+}
+
+.sidebar.show-menu{
     right: 0;
+
 }
 
 .menu {
@@ -173,9 +179,9 @@ header{
 .social-media i{
     background-color: #555;
     color: rgba(255, 255, 255, 1);
-    height: 2.5rem;
-    width: 2.5rem;
-    font-size: 2rem;
+    height: 2.8rem;
+    width: 2.8rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
