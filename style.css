@@ -424,10 +424,39 @@ header{
     width: 60%;
     height: 30rem;
     display: flex;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
 }
 
 .contato-left{
     width: 35%;
     background: linear-gradient(rgba(15,15,15, 0.6), rgba(22,22,22,0.9)), url(image/contato.png);
     background-size: cover;
+}
+
+.contato-right{
+    width: 65%;
+    background-color: #eee;
+    padding: 1rem 3rem 3rem 3rem;
+}
+
+.sessao-contato h1{
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-primary);
+    color: #272727;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.sessao-contato form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field{
+    background: transparent;
+    border: none;
+    width: 20rem;
 }
