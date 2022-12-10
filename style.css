@@ -455,8 +455,35 @@ header{
     align-items: center;
 }
 
+.input-group{
+    position: relative;
+
+}
+
 .field{
     background: transparent;
     border: none;
     width: 20rem;
+    font-size: 1.5rem;
+    font-family: var(--font-secundary);
+    border-bottom: 1px  dashed #636363;
+    height: 3rem;
+    outline: none;
+    margin: 1rem 0;
+
+}
+
+.field-label{
+    position: absolute;
+    left: 0;
+    top: 2rem;
+    font-size: 1.2rem;
+    font-family: var(--font-secundary);
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.field:focus ~ label{
+    top: 0;
+    font-size:1rem;
 }
