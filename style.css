@@ -470,7 +470,12 @@ header{
     height: 3rem;
     outline: none;
     margin: 1rem 0;
+}
 
+.input-group textarea{
+    padding-top: 1rem;
+    max-width: 25rem;
+    max-height: 3rem;
 }
 
 .field-label{
@@ -486,4 +491,12 @@ header{
 .field:focus ~ label{
     top: 0;
     font-size:1rem;
+}
+
+.field:focus{
+  border-bottom: 1px solid;
+}
+
+.btn_subimit{
+    text-transform: uppercase;
 }
