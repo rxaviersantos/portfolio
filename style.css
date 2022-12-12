@@ -433,7 +433,7 @@ header{
 
 .contato-left{
     width: 35%;
-    background: linear-gradient(rgba(15,15,15, 0.6), rgba(22,22,22,0.9)), url(image/contato.png);
+    background: linear-gradient(rgba(15,15,15, 0.6), rgba(20,20,20,0.4)), url(image/contatos.png);
     background-size: cover;
 }
 
