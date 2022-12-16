@@ -38,6 +38,7 @@ function atualizarPreco() {
   if (temJS) preco *= 1.1;
   // Regra 03
   if (incluiLayout) preco += 600;
+  // Regra 04
   let taxaUrgencia = 1 - prazo * 0.1;
   preco *= 1 + taxaUrgencia;
 

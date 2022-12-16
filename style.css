@@ -112,7 +112,11 @@ header{
 }
 
 .foto-perfil{
-    border-radius: 150%;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+
+ 
 }
 
 @keyframes zoom {
@@ -136,7 +140,7 @@ header{
     font-weight: 200;
     text-shadow: .3rem .4rem 2px rgba(0, 0, 0, .4);
     line-height: 3.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     opacity: 0;
     animation: moveBanner 1s 0.5s forwards;
 }   
@@ -335,13 +339,12 @@ header{
 .projetos{
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .card{
     width: 18rem;
     height: 25rem;
-    position: relative;
+    position: relative; 
 }
 
 .card-img-wrapper{
@@ -362,7 +365,6 @@ header{
 
 .card:hover .card-img-wrapper img{
     opacity: .5;
-
 }
 
 .card-info{
@@ -373,6 +375,14 @@ header{
     padding: 2rem;
     text-shadow: 0.3 0.2rem 0.3rem rgba(0, 0, 0, .4);
     transition: all .3s;
+}
+.card-info:hover{
+    background: #FFA17F;  
+    background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  
+    background: linear-gradient(to top, #00223E, #FFA17F); 
+    border-radius: .5rem;
+    height: 21rem;
+    margin-bottom: -32px;
 }
 
 .card-info h2{
@@ -385,7 +395,7 @@ header{
 .card-info h3{
     font-family: var(--font-action);
     font-weight: bolder;
-    color: #FFA17F;
+    color: #eee;
     margin-bottom: 1.5rem;
 }
 
@@ -630,3 +640,11 @@ footer{
     border-radius: .3rem;
     box-shadow: 0 0.1rem 0.6rem #00000009;
 }
+
+/*Media queries*/
+/* @media screen and (min-width: 768px) {
+    .hamburguer{
+        width: initial;
+    }
+     
+} */
