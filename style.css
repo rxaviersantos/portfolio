@@ -189,7 +189,7 @@ header{
     top: 0;
     right: -20rem;
     transition: all 1s;
-    z-index: 120;
+    z-index: 10;
 }
 
 .show-menu .sidebar{
