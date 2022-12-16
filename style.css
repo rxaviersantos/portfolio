@@ -252,7 +252,7 @@ header{
 
 .conhecimentos{
     display: grid;
-    grid-template-columns: repeat(16, 1fr);
+    grid-template-columns: repeat(auto-fit, 16, 1fr);
     grid-template-rows: repeat(6, 4rem);
     row-gap: .5rem;
 }
@@ -641,10 +641,23 @@ footer{
     box-shadow: 0 0.1rem 0.6rem #00000009;
 }
 
-/*Media queries*/
-/* @media screen and (min-width: 768px) {
-    .hamburguer{
-        width: initial;
+/* Media queries*/
+@media (max-width: 768px) {
+    html{
+        font-size: 50%;
     }
-     
-} */
+    .foto-perfil{
+        width: 18rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 630px) {
+    .banner{
+        text-align: center;
+    }
+    .banner button{
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
+}
