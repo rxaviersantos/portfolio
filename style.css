@@ -642,13 +642,23 @@ footer{
 }
 
 /* Media queries*/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     html{
         font-size: 50%;
     }
     .foto-perfil{
         width: 18rem;
         height: 18rem;
+        font-size: 50%;
+        justify-content: center;
+    }
+    .conhecimentos{
+        font-size: 50%;
+        
+    }
+    .sessao-header{
+        font-size: 50%;
+        justify-content: center;
     }
 }
 
