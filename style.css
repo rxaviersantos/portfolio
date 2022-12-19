@@ -642,7 +642,8 @@ footer{
 }
 
 /* Media queries*/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 200px) and
+(max-width: 768px) {
     html{
         font-size: 50%;
     }
@@ -652,6 +653,13 @@ footer{
         font-size: 50%;
         justify-content: center;
     }
+    .banner{
+        text-align: center;
+    }
+    .banner button{
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+    }
     .conhecimentos{
         font-size: 50%;
         
@@ -660,9 +668,14 @@ footer{
         font-size: 50%;
         justify-content: center;
     }
+    .projetos{
+        /* font-size: 50%;
+        justify-content: center; */
+    }
+  
 }
 
-@media (max-width: 630px) {
+/* @media (max-width: 630px) {
     .banner{
         text-align: center;
     }
@@ -670,4 +683,4 @@ footer{
         padding: 1rem 2rem;
         font-size: 1.3rem;
     }
-}
+} */
