@@ -259,6 +259,35 @@ main.cards{
     padding: 32px;
 }
 
+main.cards section.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #a7a7a7;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 300px;
+    margin-left: 32px; 
+}
+
+main.cards section.card:first-child{
+    margin-left: 0;
+}
+
+main.cards section.card .icon{
+    width: 64px;
+    height: 64px;
+}
+
+main.cards section.card i{
+    width: 100%;
+}
+
+main.cards section.card button{
+    padding: 0.5rem 1rem;
+}
+
 
 /* .conhecimentos{
     display: grid;
