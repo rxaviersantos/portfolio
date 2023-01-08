@@ -269,6 +269,7 @@ main.cards section.card{
     border-radius: 8px;
     max-height: 300px;
     margin-left: 32px; 
+    
 }
 
 main.cards section.card:first-child{
@@ -279,13 +280,46 @@ main.cards section.card .icon{
     width: 64px;
     height: 64px;
 }
+.fa-js:before {
+    color: #555;
+}
+.fa-html5:before {
+    color: ;
+}
+
+.fa-css3-alt:before{
+    color: ;
+}
+
+element.style{
+    color: #FFA17F;
+}
+
+.fa-github:before{
+    color: ;
+}
+
+.fa-database:before{
+    color: ;
+}
 
 main.cards section.card i{
     width: 100%;
+    font-size: 2.5rem;
 }
 
 main.cards section.card button{
     padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    background: #FFA17F;  
+    background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  
+    background: linear-gradient(to top, #00223E, #FFA17F);
+    color: #fff;
 }
 
 
