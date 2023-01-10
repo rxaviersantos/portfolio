@@ -269,10 +269,14 @@ main.cards section.card{
     border-radius: 8px;
     max-height: 300px;
     margin-left: 32px; 
-    box-shadow: 0 0.1rem 0.3rem rgb(0 0 0 / 50%);
+    background-color: #eee;
+    box-shadow: -2px 4px 10px rgb(0 0 0 / 10%);
+    transition: .5s;
+
+    /* box-shadow: 0 0.1rem 0.3rem rgb(0 0 0 / 50%);
     background: #FFA17F;
     background: -webkit-linear-gradient(to right, #00223E, #FFA17F);
-    background: linear-gradient(to top, #00223E, #FFA17F);
+    background: linear-gradient(to top, #00223E, #FFA17F); */
 }
 
 
@@ -283,28 +287,29 @@ main.cards section.card:first-child{
 main.cards section.card .icon{
     width: 64px;
     height: 64px;
+    color: #0009;
 }
 .fa-js:before {
-    color: #555;
+    color: #0009;
 }
 .fa-html5:before {
-    color: ;
+    color: #0009;
 }
 
 .fa-css3-alt:before{
-    color: ;
+    color: #0009;
 }
 
 element.style{
-    color: #FFA17F;
+    color: #0009;
 }
 
 .fa-github:before{
-    color: ;
+    color: #0009;
 }
 
 .fa-database:before{
-    color: ;
+    color: #0009;
 }
 
 main.cards section.card i{
@@ -320,9 +325,12 @@ main.cards section.card button{
     cursor: pointer;
     font-size: 80%;
     font-weight: 500;
-    background: #FFA17F;  
-    background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  
-    background: linear-gradient(to top, #00223E, #FFA17F);
+    /* background: #FFA17F;   */
+    /* background: -webkit-linear-gradient(to right, #00223E, #FFA17F);   */
+    /* background: linear-gradient(to top, #00223E, #FFA17F); */
+    background: linear-gradient(to top, #0009, rgba(0, 0, 0,0.8));
+    /* background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  
+    background: linear-gradient(to top, #00223E, #f7aa91);  */
     color: #fff;
 }
 
