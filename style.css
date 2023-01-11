@@ -267,7 +267,7 @@ main.cards section.card{
     /* background: #a7a7a7; */
     padding: 1rem 1.5rem;
     border-radius: 8px;
-    max-height: 300px;
+    max-height: 240px;
     margin-left: 32px; 
     background-color: #eee;
     box-shadow: -2px 4px 10px rgb(0 0 0 / 10%);
@@ -308,6 +308,10 @@ element.style{
     color: #0009;
 }
 
+.fab-card.fa-github{
+    color: #0009;
+}
+
 .fa-database:before{
     color: #0009;
 }
@@ -332,6 +336,7 @@ main.cards section.card button{
     /* background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  
     background: linear-gradient(to top, #00223E, #f7aa91);  */
     color: #fff;
+    margin-top: 3rem;
 }
 
 
@@ -712,6 +717,7 @@ footer{
 .social-list ul{
     display: flex;
 }
+
 
 #link-topo{
     position: fixed;
