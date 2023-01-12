@@ -779,3 +779,7 @@ footer{
         font-size: 1.3rem;
     }
 } */
+
+border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #3F3F3F;
