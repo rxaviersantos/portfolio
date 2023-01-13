@@ -250,6 +250,24 @@ header{
     background-color: #6c757d;
 }
 
+/* ===== Sessão Sobre mim ======= */
+
+.sobre-mim img{
+    width: 20rem;
+    align-items:center;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #3F3F3F;
+    image-rendering: pixelated;
+    /* display: block; */
+    margin-left: 6rem;
+    /* margin-right: auto; */
+}
+
+.sobre-mim span{
+    display: flex;
+}
 /* ===== Sessão Conhecimentos ======= */
 
 main.cards{
@@ -780,6 +798,3 @@ footer{
     }
 } */
 
-border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #3F3F3F;
