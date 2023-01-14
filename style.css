@@ -263,10 +263,14 @@ header{
     /* display: block; */
     margin-left: 6rem;
     /* margin-right: auto; */
+    width: calc(30% - 10px);
+    flex-direction: column;
+
 }
 
 .sobre-mim span{
     display: flex;
+    font-family: var(--font-primary);
 }
 /* ===== Sessão Conhecimentos ======= */
 
