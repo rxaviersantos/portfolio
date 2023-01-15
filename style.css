@@ -264,13 +264,14 @@ header{
     margin-left: 6rem;
     /* margin-right: auto; */
     width: calc(30% - 10px);
-    flex-direction: column;
+    /* flex-direction: column; */
 
 }
 
 .sobre-mim span{
     display: flex;
     font-family: var(--font-primary);
+    font-size: 1.3rem;
 }
 /* ===== Sessão Conhecimentos ======= */
 
