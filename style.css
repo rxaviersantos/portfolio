@@ -328,7 +328,7 @@ element.style{
 }
 
 .fa-github:before{
-    color: #0009;
+    /* color: #0009; */
 }
 
 .fab-card.fa-github{
