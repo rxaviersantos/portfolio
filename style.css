@@ -360,6 +360,7 @@ main.cards section.card button{
     background: linear-gradient(to top, #00223E, #f7aa91);  */
     color: #fff;
     margin-top: 3rem;
+
 }
 
 
@@ -741,7 +742,6 @@ footer{
     display: flex;
 }
 
-
 #link-topo{
     position: fixed;
     right: 3rem;
@@ -789,6 +789,39 @@ footer{
     .projetos{
         /* font-size: 50%;
         justify-content: center; */
+        height: auto;
+        margin: auto;
+        stroke: none;
+        text-replace: var(--font-action);
+        margin-top: 0ch;
+        margin-right: initial;
+        outline: auto;
+        width: fit-content;
+        justify-tracks: calc();
+        right: 3;
+        mix-blend-mode: color-burn;
+        gap: var(--font-primary);
+        justify-content: baseline;
+        height: fit-content;
+        transform: none;
+        opacity: initial;
+        justify-self: end;
+        hyphens: auto;
+        justify-self: flex-end;
+        font-kerning: none;
+        justify-content: center;
+        left: 0%;
+        max-height: max-content;
+        inset: inherit;
+        -ms-text-justify: distribute;
+        grid-row-end: span;
+        top: auto;
+        nav-index: initial;
+        viewport-fit: contain;
+        range: infinite;
+        kerning: auto;
+        justify-content: center;
+        nav-index: var(2px 2px 2px 2px 0px);
     }
   
 }
@@ -801,5 +834,19 @@ footer{
         padding: 1rem 2rem;
         font-size: 1.3rem;
     }
+
+    .banner{ 
+        text-algin 1rem 2rem; 
+        font-size 1.rem; 
+        padding 3rem;
+        justify-content: center;
+        text-algin: 5rem;
+        heigth: 4rem;
+        text-algin: 4rem;
+        padding: 4rem;
+        text-algin: 5rem;
+        heigth: 45rem;
+
+
 } */
 
